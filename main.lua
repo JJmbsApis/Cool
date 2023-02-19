@@ -14,7 +14,7 @@ local ImageButton = Instance.new("ImageButton")
 
 Turioasaid.Name = "Turioasaid"
 Turioasaid.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
+Turioasaid.ResetOnSpawn = false
 Other.Name = "Other"
 Other.Parent = Turioasaid
 Other.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
