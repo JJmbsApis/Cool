@@ -66,7 +66,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=11560341824"
 
 -- Scripts:
 
-local function MIFM_fake_script() -- TextButton.LocalScript 
+local function NHVGIB_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -87,12 +87,12 @@ local function MIFM_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MIFM_fake_script)()
-local function IBHRC_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(NHVGIB_fake_script)()
+local function IPXAM_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Other.Visible = not script.Parent.Parent.Parent.Other.Visible
 	end)
 end
-coroutine.wrap(IBHRC_fake_script)()
+coroutine.wrap(IPXAM_fake_script)()
