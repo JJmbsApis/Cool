@@ -15,6 +15,7 @@ local ImageButton = Instance.new("ImageButton")
 Turioasaid.Name = "Turioasaid"
 Turioasaid.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Turioasaid.ResetOnSpawn = false
+
 Other.Name = "Other"
 Other.Parent = Turioasaid
 Other.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -65,7 +66,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=11560341824"
 
 -- Scripts:
 
-local function XTAHBXG_fake_script() -- TextButton.LocalScript 
+local function MIFM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -86,12 +87,12 @@ local function XTAHBXG_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XTAHBXG_fake_script)()
-local function NYBOKFY_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(MIFM_fake_script)()
+local function IBHRC_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Other.Visible = not script.Parent.Parent.Parent.Other.Visible
 	end)
 end
-coroutine.wrap(NYBOKFY_fake_script)()
+coroutine.wrap(IBHRC_fake_script)()
